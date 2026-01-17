@@ -36,10 +36,10 @@ cask "whizpr" do
 
     Required permissions (grant when prompted):
       - Microphone Access: for recording audio
-      - Input Monitoring: for Shift+1 global hotkey
+      - Input Monitoring: for right Option key global hotkey
 
     Usage:
-      - Press Shift+1 to start/stop recording
+      - Press and hold right Option key to record
       - Transcription is automatically copied to clipboard
       - Paste anywhere with Cmd+V
 

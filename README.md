@@ -15,7 +15,7 @@ Whizpr is a menu bar application that provides on-device speech-to-text transcri
 
 ### Features
 
-- 🎤 Global Shift+1 hotkey for recording
+- 🎤 Global right Option key push-to-talk recording
 - 🔒 100% private - all processing on-device
 - 📋 Auto-copy transcriptions to clipboard
 - 🎯 Unobtrusive menu bar interface
@@ -31,9 +31,9 @@ Whizpr is a menu bar application that provides on-device speech-to-text transcri
 ## Usage
 
 1. Launch Whizpr - it appears as a microphone icon in your menu bar
-2. Press **Shift+1** to start recording
+2. **Press and hold right Option key** to start recording
 3. Speak your text
-4. Press **Shift+1** again to stop
+4. **Release right Option key** to stop
 5. Your transcription is automatically copied to clipboard
 6. Paste anywhere with **Cmd+V**
 
