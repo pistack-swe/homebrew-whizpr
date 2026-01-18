@@ -7,8 +7,8 @@
 # Note: This app is unsigned. Homebrew will remove the quarantine attribute.
 
 cask "whizpr" do
-  version "1.3.0"
-  sha256 "e21206cb3a979b986198a25bdfb52bde9527d527deeb27cdfd3d89a3eb665c59"
+  version "1.4.0"
+  sha256 "beeea0dea9f2c5f20bae659c6753264e4ce819734c8a10f6385b1a76a0fda0a7"
 
   url "https://github.com/pistack-swe/Whizpr/releases/download/v#{version}/Whizpr-#{version}.dmg"
   name "Whizpr"
@@ -37,11 +37,13 @@ cask "whizpr" do
     Required permissions (grant when prompted):
       - Microphone Access: for recording audio
       - Input Monitoring: for right Option key global hotkey
+      - Accessibility (optional): for auto-paste feature
 
     Usage:
       - Press and hold right Option key to record
       - Transcription is automatically copied to clipboard
-      - Paste anywhere with Cmd+V
+      - Enable auto-paste in Settings for automatic pasting (requires Accessibility permission)
+      - Or paste manually with Cmd+V
 
     All processing happens locally - no data is sent to the cloud.
   EOS
