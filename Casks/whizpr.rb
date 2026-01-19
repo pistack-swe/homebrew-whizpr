@@ -7,8 +7,8 @@
 # Note: This app is unsigned. Homebrew will remove the quarantine attribute.
 
 cask "whizpr" do
-  version "1.5.0"
-  sha256 "e574baa057ab69ea1273c739d574409b6ac2e0d8c1ae88f5594cfbed5075dc46"
+  version "1.5.1"
+  sha256 "78060045cf5d9027aa1b0c3d6437cc88a80743cfeff3f8a67249ad7c0d340d39"
 
   url "https://github.com/pistack-swe/Whizpr/releases/download/v#{version}/Whizpr-#{version}.dmg"
   name "Whizpr"
